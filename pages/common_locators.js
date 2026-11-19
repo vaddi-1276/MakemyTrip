@@ -13,7 +13,6 @@ class CommonLocators {
         this.Flights_From_City_Input = '//input[@placeholder="From"]';
 
         this.Flights_From_City_List = (city_name) => `//*[text()="${city_name}"]`;
-
         this.Flights_To_City = '//label[@for="toCity"]';
 
         this.Flights_To_City_Input = '//input[@placeholder="To"]';

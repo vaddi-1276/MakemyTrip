@@ -18,7 +18,6 @@ test('Navigate to MakeMyTrip and verify the submodule icons and text', async ({ 
         expect(text.trim()).toBe(objecttypes_text[objecttypes.indexOf(objecttype)]);
     }
 });
-
 test('Click on Flights and search for flights from New Delhi to Mumbai and navigated to Flights Price Page', async ({ page }) => {
     await page.goto('https://www.makemytrip.com/');
     await commonLocators.waitForElementVisible(page, commonLocators.popupCloseButton);
